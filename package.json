@@ -1,7 +1,7 @@
 {
-  "name": "pandora-boilerplate-wechat-plugin",
+  "name": "@pandolajs/pandora-boilerplate-wechat-plugin",
   "version": "0.1.0",
-  "description": "A boilerplate to create pandora boilerplate for wechat miniprogram plugin development.",
+  "description": "A boilerplate to create wechat miniprogram plugin project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,9 +25,9 @@
   "author": "sizhao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pandolajs/pandora-boilerplate-boilerplate/issues"
+    "url": "https://github.com/pandolajs/pandora-boilerplate-wechat-plugin/issues"
   },
-  "homepage": "https://github.com/pandolajs/pandora-boilerplate-boilerplate#readme",
+  "homepage": "https://github.com/pandolajs/pandora-boilerplate-wechat-plugin#readme",
   "private": true,
   "devDependencies": {
     "chalk": "^2.4.1",
