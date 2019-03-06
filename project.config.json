@@ -1,0 +1,11 @@
+{
+	"miniprogramRoot": "dist/examples",
+	"pluginRoot": "dist/plugin",
+	"compileType": "plugin",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "@{AppId}",
+	"projectname": "@{ProjectName}",
+	"condition": {}
+}

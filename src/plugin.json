@@ -1,0 +1,9 @@
+{
+  "publicComponents": {
+    "demo": "components/demo/index"
+  },
+  "pages": {
+    "demo-page": "pages/demo/index"
+  },
+  "main": "index.js"
+}

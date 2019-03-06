@@ -1,0 +1,13 @@
+appid: '@{AppId}'
+development:
+  env: 'development'
+  host: ''
+test:
+  env: 'test'
+  host: ''
+preproduction:
+  env: 'preproduction'
+  host: ''
+production:
+  env: 'production'
+  host: ''

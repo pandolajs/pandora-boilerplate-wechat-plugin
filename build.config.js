@@ -6,10 +6,8 @@
 
 module.exports = {
   alias: {
-    util: 'src/utils',
     component: 'src/components',
     config: 'src/config/index.js',
-    service: 'src/services',
-    stat: 'src/stat',
+    service: 'src/services'
   }
 }

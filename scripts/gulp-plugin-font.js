@@ -7,6 +7,7 @@
 const through = require('through2')
 const mime = require('mime')
 const fs = require('fs')
+const fse = require('fs-extra')
 const path = require('path')
 const SVGIcons2SvgFontStream = require('svgicons2svgfont')
 const svg2ttf = require('svg2ttf')
@@ -89,7 +90,7 @@ module.exports = function (options) {
   inputStream._flush = async function () {
     const chunks = []
     iconFontSteam.end()
-    
+
     let base64Str = await new Promise((resolve, reject) => {
       iconFontSteam.on('data', chunk => {
         chunks.push(chunk)
@@ -106,7 +107,7 @@ module.exports = function (options) {
     const destPath = path.join(cwd, dest, `${fontName}.wxss`)
     if (!fs.existsSync(destPath)) {
       try {
-        fs.mkdirSync(path.dirname(destPath))
+        fse.mkdirsSync(path.dirname(destPath))
       } catch (error) {}
     }
     const targetStream = fs.createWriteStream(destPath)

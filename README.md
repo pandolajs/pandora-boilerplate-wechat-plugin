@@ -1,4 +1,4 @@
-# pandora-boilerplate-boilerplate
+# pandora-boilerplate-wechat-plugin
 
 A boilerplate to create a empty pandora boilerplate.
 
@@ -6,13 +6,13 @@ A boilerplate to create a empty pandora boilerplate.
 
 - 全局安装 pandora-cli
 
-```
+```bash
   npm i -g pandora-cli
 ```
 
 - 初始化脚手架
 
-```
+```bash
   pa init pandora-boilerplate-react -b @pandolajs/pandora-boilerplate-boilerplate
 ```
 

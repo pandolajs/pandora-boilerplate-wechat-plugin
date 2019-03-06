@@ -1,7 +1,7 @@
 /**
  * @fileOverview source code
- * @author houquan | houquan@babytree-inc.com
- * @version 1.0.0 | 2019-03-06 | houquan  // 初始版本
+ * @author @{User} | @{Email}
+ * @version 1.0.0 | @{Date} | @{User} // initial version
 */
 
 // here is the location where source code is.

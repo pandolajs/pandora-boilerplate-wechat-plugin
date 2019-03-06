@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/home/index"
+  ],
+  "plugins": {
+    "myPlugin": {
+      "version": "dev",
+      "provider": "@{AppId}"
+    }
+  }
+}
