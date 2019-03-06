@@ -1,0 +1,17 @@
+{
+  "templates": {
+    "page": "src/pages",
+    "component": "src/components"
+  },
+  "components": [
+    {
+      "name": "vant-weapp",
+      "path": "dist",
+      "dependencies": [
+        "mixins",
+        "common",
+        "wxs"
+      ]
+    }
+  ]
+}

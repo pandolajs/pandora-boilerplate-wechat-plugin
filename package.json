@@ -1,0 +1,56 @@
+{
+  "name": "pandora-boilerplate-wechat-plugin",
+  "version": "1.0.0",
+  "description": "A boilerplate to create pandora boilerplate for wechat miniprogram plugin development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:gulp": "gulp --gulpfile ./scripts/gulpfile.js --cwd .",
+    "start": "cross-env NODE_ENV=development npm run build:gulp",
+    "build:test": "cross-env NODE_ENV=test npm run build:gulp",
+    "build:pre": "cross-env NODE_ENV=preproduction npm run build:gulp",
+    "build:prod": "cross-env NODE_ENV=production npm run build:gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandolajs/pandora-boilerplate-boilerplate.git"
+  },
+  "keywords": [
+    "pandora-boilerplate",
+    "boilerplate",
+    "wechat",
+    "miniprogram",
+    "plugin"
+  ],
+  "author": "sizhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandolajs/pandora-boilerplate-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pandolajs/pandora-boilerplate-boilerplate#readme",
+  "private": true,
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "del": "^3.0.0",
+    "dependency-tree": "^6.1.0",
+    "execa": "^1.0.0",
+    "glob-watcher": "^5.0.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "js-yaml": "^3.12.0",
+    "less": "^3.0.4",
+    "less-plugin-autoprefix": "^1.5.1",
+    "mime": "^2.3.1",
+    "plugin-error": "^1.0.1",
+    "read-pkg-up": "^4.0.0",
+    "svg2ttf": "^4.1.0",
+    "svgicons2svgfont": "^9.0.3",
+    "through2": "^2.0.3",
+    "webpack": "^4.12.2"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.12.0"
+  }
+}
