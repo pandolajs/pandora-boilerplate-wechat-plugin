@@ -3,7 +3,7 @@
     "pages/home/index"
   ],
   "plugins": {
-    "myPlugin": {
+    "paPlugin": {
       "version": "dev",
       "provider": "@{AppId}"
     }

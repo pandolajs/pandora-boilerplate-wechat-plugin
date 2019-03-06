@@ -1,7 +1,7 @@
-<!-- 
-  @fileOverview 
-  @author houquan | houquan@babytree-inc.com
-  @version 1.0.0 | 2019-03-06 | houquan   // 初始版本
+<!--
+  @fileOverview
+  @author @{User} | @{Email}
+  @version 1.0.0 | @{Date} | @{User} // initial version
  -->
 
- <view class="demo">Hello, {{name}}! This is Demo Component.</view>
+ <view class="demo">Hello, {{name}}! This is plugin Demo Component.</view>
