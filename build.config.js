@@ -6,8 +6,15 @@
 
 module.exports = {
   alias: {
-    component: 'src/components',
-    config: 'src/config/index.js',
-    service: 'src/services'
+    // 配置插件开发需要的模块别名
+    plugin: {
+      component: 'src/components',
+      config: 'src/config/index.js',
+      service: 'src/services'
+    },
+    // 配置 examples 中需要的模块别名
+    examples: {
+      config: 'examples/config/index.js'
+    }
   }
 }
