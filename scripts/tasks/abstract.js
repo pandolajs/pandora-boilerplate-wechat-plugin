@@ -39,7 +39,7 @@ module.exports = {
 
     gulp.task(name, (done) => {
       gulp.src(srcPattern, { base: src })
-        .pipe(alias(buildConfig[src]))
+        .pipe(alias(buildConfig.alias[src]))
         .pipe(npm({
           dest
         }))
