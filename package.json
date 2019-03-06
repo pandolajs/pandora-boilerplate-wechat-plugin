@@ -28,7 +28,6 @@
     "url": "https://github.com/pandolajs/pandora-boilerplate-wechat-plugin/issues"
   },
   "homepage": "https://github.com/pandolajs/pandora-boilerplate-wechat-plugin#readme",
-  "private": true,
   "devDependencies": {
     "chalk": "^2.4.1",
     "cross-env": "^5.2.0",
